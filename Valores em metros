@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int metros;
+
+    printf("Digite um valor em metros: ");
+    
+    scanf("%d", &metros);
+
+    printf("\n Valor em centimetros: %d cm \n", metros*100);
+
+    printf(" Valor em decimetros: %d dm \n", metros*10);
+
+    printf(" Valor em milimetros: %d mm", metros*1000);
+
+    return 0;
+}
+
